@@ -4,7 +4,7 @@ from pyowm.utils import timestamps
 
 # ---------- FREE API KEY examples ---------------------
 
-owm = OWM('38d87a58279511d99db09cf5b52f2d65')
+owm = OWM('Your API key')
 mgr = owm.weather_manager()
 
 
