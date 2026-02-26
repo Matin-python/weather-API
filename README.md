@@ -29,14 +29,15 @@ bash
 ## Example Usage
 
 `bash
-    Enter your city name: London
 
-Weather in London:
-Temperature: 15°C
-Temperature feels like: 14°C
-Pressure: 1012 hPa
-Humidity: 77%
-Weather Description: Clear sky
+        Enter your city name: London
+
+        Weather in London:
+        Temperature: 15°C
+        Temperature feels like: 14°C
+        Pressure: 1012 hPa
+        Humidity: 77%
+        Weather Description: Clear sky
 
 ## How It Works
 - User Input: The program prompts you to enter the name of the city.
@@ -46,5 +47,7 @@ Weather Description: Clear sky
 
 ## Troubleshooting
 API Request Fails: If the API request fails or the city is not found, make sure the city name is correct and try again.
+
 API Key: Ensure that you have a valid API key from OpenWeatherMap.
+
 Error Handling: If the API returns an error (e.g., invalid city name), the program will display a failure message.
