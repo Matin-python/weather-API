@@ -40,14 +40,25 @@ bash
         Weather Description: Clear sky
 
 ## How It Works
+
 - User Input: The program prompts you to enter the name of the city.
 - API Request: It sends a GET request to the OpenWeatherMap API with the city name and your API key.
 - Weather Data: Once the response is received, the program parses the JSON data and extracts the temperature, humidity, pressure, and weather description.
 - Results Display: It then displays the weather information in a human-readable format.
 
 ## Troubleshooting
+
 API Request Fails: If the API request fails or the city is not found, make sure the city name is correct and try again.
 
 API Key: Ensure that you have a valid API key from OpenWeatherMap.
 
 Error Handling: If the API returns an error (e.g., invalid city name), the program will display a failure message.
+
+## Author
+
+**Mohammad Reza Bakhshandeh**
+
+Electrical Engineering (Electronics) Graduate
+
+Interested in Python Development, Computer Vision, Machine Learning, and Artificial Intelligence.
+
